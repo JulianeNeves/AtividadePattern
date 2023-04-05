@@ -1,28 +1,27 @@
 public class Fila {
-    private static Fila instancia; // Instância única da classe Fila
-
-    // Construtor privado para evitar a criação de instâncias diretamente
+    private static Fila instancia; 
+    
     private Fila() {
-        // Lógica de inicialização da fila
+       
     }
 
-    // Método público para obter a instância única da classe Fila
+   
     public static Fila getInstance() {
-        if (instancia == null) { // Lazy initialization
+        if (instancia == null) { 
             instancia = new Fila();
         }
         return instancia;
     }
 
     public void ImprimeDocumento() {
-        // Lógica para imprimir documento na fila
+       
     }
 
     public void RemoveDocumento() {
-        // Lógica para remover documento da fila
+        
     }
 
     public void RemoveTodosDocumentos() {
-        // Lógica para remover todos os documentos da fila
+       
     }
 }
